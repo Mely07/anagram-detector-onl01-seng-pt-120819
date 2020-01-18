@@ -11,7 +11,7 @@ class Anagram
 
     array.each {|word2|
     if word2.split("").sort == word.split("").sort
-       return word2
+       %w() << word2
     end}
     
     
