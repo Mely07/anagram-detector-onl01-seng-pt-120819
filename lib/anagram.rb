@@ -8,12 +8,12 @@ class Anagram
   end
   
   def match(array)
-  array = []
+  array2 = []
     array.each {|word2|
     if word2.split("").sort == word.split("").sort
-       array << word2
+       array2 << word2
     end}
-    return array
+    return array2
     
    #
   end
