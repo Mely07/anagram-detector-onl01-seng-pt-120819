@@ -11,6 +11,7 @@ class Anagram
     array.map {|word2|
     if word2.split("").sort == word.split("").sort
       word2
+    end
     }
    #
   end
