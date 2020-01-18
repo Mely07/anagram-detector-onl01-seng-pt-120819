@@ -13,6 +13,7 @@ class Anagram
        %w()  << word2
     end
     }
+    %w()
    #
   end
    
