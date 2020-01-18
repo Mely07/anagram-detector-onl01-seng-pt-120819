@@ -4,11 +4,14 @@ class Anagram
   attr_accessor :word
   
   def initialize
-    %w(word)
+    word
   end
   
   def match 
-   
+    %w(anagrams)
   end
    
 end
+
+#word
+#list of possible anagrams
